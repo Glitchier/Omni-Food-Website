@@ -1,0 +1,120 @@
+@media only screen and (max-width:1200px){
+    .cntr-ele {
+        width: 100%;
+        padding: 0 4%;
+    }
+
+    .row{ padding : 0 4%; }
+}
+
+@media only screen and (max-width:1023px){
+    body{ font-size: 17px; }
+    section{ padding:50px 0; }
+    .row{ padding : 0 4%; }
+    .cntr-ele {
+        width: 100%;
+        padding: 0 4%;
+    }
+    .long-copy{
+        width:90%;
+        margin-left: 5%;
+    }
+    .steps-box{ margin-top:10px; }
+    .steps-box:first-child{ margin-top:0px; }
+    .steps-box:last-child{ margin-top:10px; }
+    .work-steps{ margin-bottom:40px; }
+    .work-steps:last-of-type{ margin-bottom:60px; }
+    .app-screen{ width:50%; }
+    .cities-small-icon{
+        margin-right:5px;
+        width:15px;
+    }
+    .cities-f-box{ font-size: 85%; }
+    .plan-box{
+        width:100%;
+        margin-left: 0;
+    }
+    .plan-price{ font-size: 250%; }
+    .contact-form{ width:80%; }
+}
+
+@media only screen and (max-width:767px){
+    body{ font-size: 16px; }
+    section{ padding:30px 0; }
+    .row,
+    .cntr-ele { padding: 0 4%; }
+    .col {
+        width:100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    .main-nav{
+        float:left;
+        padding: 10px;
+    }
+    .sticky-nav .main-nav li{
+        display:block;
+        margin-top: 0px;
+    }
+    .sticky-nav .mob-nav i{
+        font-size: 200%;
+        color:#000;
+    }
+    .main-nav li{
+        display:block;
+        margin-top:0px;
+        border:0;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display:block;
+        border:0;
+    }
+
+    .mob-nav{
+        display: inline-block;
+    }
+
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+    .long-copy{
+        width:100%;
+        margin-left:0;
+    }
+    .sticky-nav #mob_menu_black{ display: inline-block; } 
+    #mob_menu{
+        display: inline-block;
+    }
+    .f-icon{
+        margin:20px 0;
+    }
+    .app-screen{width:40%;}
+    .steps-box:first-child{text-align: center;}
+    .work-steps div{
+        height:40px;
+        width:40px;
+        margin-right:15px;
+        padding:5px;
+        font-size: 150%;
+    }
+    .work-steps{margin-bottom:30px;}
+    .work-steps:last-of-type{margin-bottom:40px;}
+    .cities-small-icon{
+        width:25px;
+    }
+    .cities-f-box{ font-size: 100%; }
+    .cities-section .f-box{
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        padding : 15px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    section{padding:25px 0;}
+    .contact-form{width:100%;}
+}
